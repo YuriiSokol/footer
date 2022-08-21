@@ -424,7 +424,7 @@ body {
   fill: var(--white);
   padding-left: 70px;
 }
-.invitation {
+.subscribe {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -436,13 +436,13 @@ body {
   padding-bottom: 20px;
   padding-left: 70px;
 }
-.sign-in {
+.subscribe__img {
   position: absolute;
   fill: var(--white);
   right: 24px;
   top: 13px;
 }
-.sign-email {
+.subscribe__mail {
   margin-left: 68px;
   background-color: var(--second);
   padding: 16px 15px;
@@ -452,12 +452,12 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.sign-in-text {
+.subscribe--text {
   position: absolute;
   left: 42px;
   top: 10px;
 }
-.sign-in-button {
+.subscribe__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
