@@ -336,13 +336,13 @@ body {
 /* ===================================== End Social Icons =========================== */
 
 /* ======================================== Regular Customers ================================ */
-.company-icon {
+.customer {
   list-style: none;
   display: flex;
   fill: var(--social);
   gap: 30px;
 }
-.customers {
+.customer__icon {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -351,7 +351,7 @@ body {
   justify-content: center;
   display: flex;
 }
-.last-customers {
+.customer__icon--last {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -360,8 +360,8 @@ body {
   justify-content: center;
   display: flex;
 }
-.customers:hover,
-.customers:focus {
+.customer__icon:hover,
+.customer__icon:focus {
   fill: var(--blue);
   border-color: var(--blue);
   cursor: pointer;
