@@ -378,25 +378,25 @@ body {
   padding: 60px;
   background: var(--second);
 }
-.adr {
+.address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.adr a {
+.address a {
   font-weight: 500;
   color: var(--grey);
   text-decoration: none;
   font-size: 14px;
 }
-.mailtel {
+.address__list--mail .address__list--tel {
   padding-top: 9px;
 }
-.footer-adres {
+.address__list {
   list-style: none;
 }
-.ouradres {
+.address__location {
   padding-top: 20px;
 }
 .invite {
@@ -411,7 +411,7 @@ body {
   padding-bottom: 20px;
   padding-left: 70px;
 }
-.lista-link {
+.address__list--font {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
