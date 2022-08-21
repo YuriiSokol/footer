@@ -310,14 +310,7 @@ body {
   gap: 10px;
   fill: var(--social);
 }
-/* .socialmedia {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  fill: var(--white);
-  padding-left: 70px;
-} */
+
 .social-icon__link {
   width: 44px;
   height: 44px;
@@ -422,6 +415,14 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.social-icon-footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  fill: var(--white);
+  padding-left: 70px;
 }
 .invitation {
   font-weight: 700;
