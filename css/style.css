@@ -372,7 +372,7 @@ body {
 /* ======================================== End Regular Customers ================================ */
 
 /* ========================================== Footer ============================== */
-.foot {
+.page-footer {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   padding: 60px;
@@ -473,7 +473,7 @@ body {
   position: absolute;
   margin-bottom: 104px;
 }
-.footsocial {
+.page-footer__social {
   display: flex;
 }
 /* ========================================== End Footer ============================== */
