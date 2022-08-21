@@ -310,14 +310,14 @@ body {
   gap: 10px;
   fill: var(--social);
 }
-.socialmedia {
+/* .socialmedia {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 10px;
   fill: var(--white);
   padding-left: 70px;
-}
+} */
 .social-icon__link {
   width: 44px;
   height: 44px;
