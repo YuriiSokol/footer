@@ -62,7 +62,7 @@ body {
   text-decoration: none;
   color: var(--blue);
 }
-.page-header__logotxt--coloro {
+.page-header__logotxt--color {
   color: var(--black);
 }
 .page-header__list a {
