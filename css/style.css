@@ -32,12 +32,12 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.lista a:hover,
-.lista a:focus,
-.adrlista a:hover,
-.adrlista a:focus,
-.adrlista a:focus svg,
-.adrlista a:hover svg {
+.page-header__list a:hover,
+.page-header__list a:focus,
+.page-header__adrlist a:hover,
+.page-header__adrlist a:focus,
+.page-header__adrlist a:focus svg,
+.page-header__adrlist a:hover svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -45,7 +45,7 @@ body {
 .borderbottom {
   border-bottom: 1px solid #ececec;
 }
-.headerpage {
+.page-header {
   display: flex;
   align-items: center;
   padding-top: 24px;
@@ -53,7 +53,7 @@ body {
   justify-content: left;
 }
 
-.webstudio {
+.page-header__logotxt {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -62,10 +62,10 @@ body {
   text-decoration: none;
   color: var(--blue);
 }
-.studio {
+.page-header__logotxt--coloro {
   color: var(--black);
 }
-.lista a {
+.page-header__list a {
   font-weight: 500;
   color: #212121;
   font-size: 14px;
@@ -75,31 +75,31 @@ body {
   list-style: none;
 }
 
-.lista {
+.page-header__list {
   display: flex;
   padding-left: 93px;
   list-style: none;
 }
-.lista-link {
+.page-header__list--color {
   padding-right: 46px;
 }
-.lista-link:hover {
+.page-header__list--color:hover {
   color: #2196f3;
 }
-.lista-link:focus {
+.page-header__list--color:focus {
   color: #2196f3;
 }
-.lista-link-adr:hover {
+.page-header__adrlist:hover {
   color: #2196f3;
 }
-.lista-link-adr {
+.page-header__adrlist {
   padding-left: 50px;
 }
-.adrlista a:hover svg,
-.adrlista a:focus svg {
+.page-header__adrlist a:hover svg,
+.page-header__adrlist a:focus svg {
   fill: var(--blue);
 }
-.adrlista {
+.page-header__adrlist {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -109,33 +109,25 @@ body {
   margin-left: auto;
   align-items: center;
 }
-.adrlista a {
+.page-header__adrlist a {
   font-weight: 500;
   color: var(--grey);
   text-decoration: none;
   font-size: 14px;
 }
-.email {
+.page-header__email {
   width: 26px;
   height: 12px;
   padding-right: 10px;
   fill: var(--grey);
 }
-.smartphone {
+.page-header__smartphone {
   padding-right: 10px;
   fill: var(--grey);
   width: 20px;
   height: 16px;
 }
-.webstudio {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--blue);
-}
+
 .bottomline {
   position: relative;
 }
