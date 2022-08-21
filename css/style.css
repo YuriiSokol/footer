@@ -484,10 +484,10 @@ body {
 ===================================================== */
 
 /* ===================================== Button List ======================== */
-.tlo {
+.background {
   padding: 94px;
 }
-.clickbutton {
+.portfolio-btn__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -499,13 +499,13 @@ body {
   border-style: none;
   padding: 6px 22px;
 }
-.but {
+.portfolio-btn {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-.clickbutton:hover,
-.clickbutton:focus {
+.portfolio-btn__btn:hover,
+.portfolio-btn__btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   transition-duration: 2250ms;
@@ -517,7 +517,7 @@ body {
 /* ===================================== End Button List ======================== */
 
 /* ======================================== Portfolio Cards =============================== */
-.name2 {
+.portfolio__card--position {
   border-left: 1px solid var(--fourth);
   border-right: 1px solid var(--fourth);
   border-bottom: 1px solid var(--fourth);
@@ -525,14 +525,14 @@ body {
   position: relative;
   background-color: var(--white);
 }
-.img-name {
+.portfolio__card--name {
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--dark);
 }
-.about {
+.portfolio__card--disc {
   color: var(--grey);
   font-size: 16px;
   line-height: 1.5;
@@ -540,35 +540,35 @@ body {
   padding-top: 8px;
 }
 
-.discr-photo {
+.portfolio {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.discr-photo .img {
+.portfolio .portfolio__card {
   position: relative;
   overflow: hidden;
   display: flex;
   background: var(--white);
 }
-.img {
+.portfolio__card {
   display: flex;
   margin-top: 56px;
   background: var(--white);
   position: absolute;
 }
-.img:hover {
+.portfolio__card:hover {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.168), 0px 4px 4px rgba(0, 0, 0, 0.07),
     1px 4px 6px rgba(0, 0, 0, 0.19);
   transition-duration: 2250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.img:hover .overlay {
+.portfolio__card:hover .portfolio__overlay {
   transform: translatey(0);
 }
-.overlay {
+.portfolio__overlay {
   background: var(--blue);
   position: absolute;
   padding: 49px 45px 49px 24px;
@@ -580,10 +580,10 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.overlay:hover {
+.portfolio__overlay:hover {
   transform: translateX(0);
 }
-.newtext {
+.portfolio__overlay--text {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
