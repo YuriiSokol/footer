@@ -617,14 +617,14 @@ body {
   border-radius: 4px;
 }
 
-.close-button {
+.modal__button--close {
   position: absolute;
   width: 11px;
   height: 11px;
   right: 8px;
   top: 8px;
 }
-.modal-button {
+.modal__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -635,19 +635,19 @@ body {
   width: 30px;
   height: 30px;
 }
-.modal-button:hover {
+.modal__button:hover {
   border: 1px solid var(--blue);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   transition: 250ms;
 }
 
-.modal-button:hover svg {
+.modal__button:hover svg {
   fill: var(--blue);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden {
+.backdrop--is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
