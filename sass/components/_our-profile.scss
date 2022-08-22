@@ -1,0 +1,29 @@
+.our-profile {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark);
+  }
+
+  &__describtion {
+    color: var(--grey);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    padding-top: 10px;
+    text-transform: none;
+  }
+}

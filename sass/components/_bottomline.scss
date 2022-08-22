@@ -1,0 +1,17 @@
+.borderbottom {
+  border-bottom: 1px solid #ececec;
+}
+.bottomline {
+  position: relative;
+  &::after {
+    content: "";
+    height: 4px;
+    background: var(--blue);
+    border-radius: 2px;
+    position: absolute;
+    bottom: -31px;
+    text-transform: uppercase;
+    width: 100%;
+    left: 0;
+  }
+}

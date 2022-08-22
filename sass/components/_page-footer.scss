@@ -1,0 +1,107 @@
+.page-footer {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 60px;
+  background: var(--second);
+  &__social {
+    display: flex;
+  }
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  & a {
+    font-weight: 500;
+    color: var(--grey);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  &__location {
+    padding-top: 20px;
+  }
+}
+
+.address__list {
+  list-style: none;
+  &--mail &--tel {
+    padding-top: 9px;
+  }
+  &--font {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.invite {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding-bottom: 20px;
+  margin-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+}
+
+.subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding-bottom: 20px;
+  margin-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  &__img {
+    position: absolute;
+    fill: var(--white);
+    right: 24px;
+    top: 13px;
+  }
+  &__mail {
+    margin-left: 68px;
+    background-color: var(--second);
+    padding: 16px 15px;
+    width: 358px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+  &--text {
+    position: absolute;
+    left: 42px;
+    top: 10px;
+  }
+  &__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+    background: var(--blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    margin-bottom: 104px;
+  }
+}
