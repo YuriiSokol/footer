@@ -31,15 +31,14 @@
 }
 .page-header__list--color {
   padding-right: 46px;
+  &:hover,
+  &:focus {
+    color: var(--blue);
+  }
 }
-.page-header__list--color:hover {
-  color: #2196f3;
-}
-.page-header__list--color:focus {
-  color: #2196f3;
-}
+
 .page-header__adrlist:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 .page-header__adrlist {
   padding-left: 50px;

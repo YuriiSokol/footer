@@ -6,7 +6,7 @@
   top: 0px;
   transition: opacity 250ms linear, visibility 250ms linear scale(1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--shadowport1);
   &--is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -21,8 +21,8 @@
   padding: 40px;
   transform: translate(-50%, -50%);
   background-color: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--shadowport3), 0px 1px 1px var(--shadowport3),
+    0px 2px 1px var(--shadowport1);
   border-radius: 4px;
   &--header {
     font-weight: 700;
@@ -45,7 +45,7 @@
     margin-bottom: 10px;
     width: 100%;
     height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid var(--modalbord);
     border-radius: 4px;
     padding-left: 42px;
   }
@@ -58,7 +58,7 @@
   &__comment {
     width: 100%;
     height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid var(--modalbord);
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 16px 12px;
@@ -105,7 +105,7 @@
   top: 8px;
   right: 8px;
   background-color: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--shadowport1);
   border-radius: 50%;
   cursor: pointer;
   width: 30px;
@@ -136,7 +136,7 @@
     color: var(--white);
     background-color: var(--blue);
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--shadowbox);
     border-radius: 4px;
 
     border: none;

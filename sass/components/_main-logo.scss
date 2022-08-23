@@ -1,8 +1,5 @@
 .main-logo {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(var(--title), var(--title)),
     url(../images/people.jpg);
   padding: 94px;
   background-color: var(--second);
@@ -30,7 +27,7 @@
     background-color: var(--blue);
     cursor: pointer;
     background: var(--blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--shadowbox);
     border-radius: 4px;
     padding-left: 42px;
     padding-right: 41px;

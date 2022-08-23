@@ -1,3 +1,24 @@
+:root {
+  --first: #ececec;
+  --blue: #2196f3;
+  --dark: #212121;
+  --black: #000000;
+  --grey: #757575;
+  --white: #ffffff;
+  --second: #2f303a;
+  --third: #f5f4fa;
+  --fourth: #eeeeee;
+  --lightgray: #afb1b8;
+  --title: rgba(47, 48, 58, 0.4);
+  --shadowbox: rgba(0, 0, 0, 0.15);
+  --foot: rgba(255, 255, 255, 0.6);
+  --shadowport1: rgba(0, 0, 0, 0.1);
+  --shadowport2: rgba(0, 0, 0, 0.08);
+  --shadowport3: rgba(0, 0, 0, 0.12);
+  --workcard: rgba(47, 48, 58, 0.8);
+  --modalbord: rgba(33, 33, 33, 0.2);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,18 +30,6 @@ body {
   color: var(--dark);
   font-size: 16px;
   font-family: "Roboto", "Raleway", sans-serif;
-}
-
-:root {
-  --first: #ececec;
-  --blue: #2196f3;
-  --dark: #212121;
-  --black: #000000;
-  --grey: #757575;
-  --white: #ffffff;
-  --second: #2f303a;
-  --third: #f5f4fa;
-  --fourth: #eeeeee;
 }
 
 .container {
@@ -70,17 +79,12 @@ body {
 .page-header__list--color {
   padding-right: 46px;
 }
-
-.page-header__list--color:hover {
-  color: #2196f3;
-}
-
-.page-header__list--color:focus {
-  color: #2196f3;
+.page-header__list--color:hover, .page-header__list--color:focus {
+  color: var(--blue);
 }
 
 .page-header__adrlist:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .page-header__adrlist {
@@ -141,7 +145,7 @@ body {
 }
 
 .borderbottom {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--first);
 }
 
 .bottomline {
@@ -160,7 +164,7 @@ body {
 }
 
 .main-logo {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/people.jpg);
+  background-image: linear-gradient(var(--title), var(--title)), url(../images/people.jpg);
   padding: 94px;
   background-color: var(--second);
   text-align: center;
@@ -187,7 +191,7 @@ body {
   background-color: var(--blue);
   cursor: pointer;
   background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--shadowbox);
   border-radius: 4px;
   padding-left: 42px;
   padding-right: 41px;
@@ -246,7 +250,7 @@ body {
   right: 0;
   margin: 0;
   width: 370px;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: var(--workcard);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -274,7 +278,7 @@ body {
 }
 .team-list__photo {
   background: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--shadowport3), 0px 1px 1px var(--shadowport3), 0px 2px 1px var(--shadowport1);
   border-radius: 0px 0px 4px 4px;
   margin-top: 47px;
 }
@@ -338,7 +342,7 @@ body {
 .customer__icon {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--lightgray);
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -347,7 +351,7 @@ body {
 .customer__icon--last {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--lightgray);
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -363,7 +367,7 @@ body {
 
 .page-footer {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foot);
   padding: 60px;
   background: var(--second);
 }
@@ -401,7 +405,7 @@ body {
   line-height: 24px;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foot);
 }
 
 .invite {
@@ -442,7 +446,7 @@ body {
   width: 358px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px var(--shadowbox));
   border-radius: 4px;
 }
 .subscribe--text {
@@ -459,7 +463,7 @@ body {
   background-color: var(--blue);
   cursor: pointer;
   background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--shadowbox);
   border-radius: 4px;
   width: 200px;
   height: 50px;
@@ -494,7 +498,7 @@ body {
   background-color: #2196f3;
   transition-duration: 2250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px var(--shadowport1), 0px 1px 2px var(--shadowport2), 0px 2px 2px var(--shadowport3);
   cursor: pointer;
 }
 
@@ -566,7 +570,7 @@ body {
 }
 .portfolio__card:hover {
   cursor: pointer;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.168), 0px 4px 4px rgba(0, 0, 0, 0.07), 1px 4px 6px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 1px 1px var(--shadowbox), 0px 4px 4px var(--shadowport2), 1px 4px 6px var(--shadowport3);
   transition-duration: 2250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -579,7 +583,7 @@ body {
   top: 0px;
   transition: opacity 250ms linear, visibility 250ms linear scale(1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--shadowport1);
 }
 .backdrop--is-hidden {
   opacity: 0;
@@ -595,7 +599,7 @@ body {
   padding: 40px;
   transform: translate(-50%, -50%);
   background-color: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--shadowport3), 0px 1px 1px var(--shadowport3), 0px 2px 1px var(--shadowport1);
   border-radius: 4px;
 }
 .modal--header {
@@ -619,7 +623,7 @@ body {
   margin-bottom: 10px;
   width: 100%;
   height: 40px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid var(--modalbord);
   border-radius: 4px;
   padding-left: 42px;
 }
@@ -632,7 +636,7 @@ body {
 .modal__comment {
   width: 100%;
   height: 120px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid var(--modalbord);
   border-radius: 4px;
   margin-bottom: 20px;
   padding: 16px 12px;
@@ -678,7 +682,7 @@ body {
   top: 8px;
   right: 8px;
   background-color: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--shadowport1);
   border-radius: 50%;
   cursor: pointer;
   width: 30px;
@@ -710,7 +714,7 @@ body {
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--shadowbox);
   border-radius: 4px;
   border: none;
   margin: 0px 124px 0px;

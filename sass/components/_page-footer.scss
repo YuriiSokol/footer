@@ -1,6 +1,6 @@
 .page-footer {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--foot);
   padding: 60px;
   background: var(--second);
   &__social {
@@ -38,7 +38,7 @@
 
     letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--foot);
   }
 }
 
@@ -79,7 +79,7 @@
     width: 358px;
     margin-right: 12px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 4px 4px var(--shadowbox));
     border-radius: 4px;
   }
   &--text {
@@ -96,7 +96,7 @@
     background-color: var(--blue);
     cursor: pointer;
     background: var(--blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--shadowbox);
     border-radius: 4px;
     width: 200px;
     height: 50px;
