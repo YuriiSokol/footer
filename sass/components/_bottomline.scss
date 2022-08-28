@@ -1,6 +1,6 @@
 .borderbottom {
   border-bottom: 1px solid var(--first);
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     height: 60px;
   }
 }

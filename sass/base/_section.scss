@@ -6,11 +6,11 @@
     background: var(--third);
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .section {
     padding: 0px;
   }
   .section-team {
-    max-width: 480px;
+    max-width: 767px;
   }
 }

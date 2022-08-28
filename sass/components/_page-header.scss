@@ -75,7 +75,7 @@
   width: 20px;
   height: 16px;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header__adrlist {
     display: none;
   }
@@ -83,7 +83,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
     height: 60px;
     padding-bottom: 16px;

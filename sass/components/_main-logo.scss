@@ -17,7 +17,7 @@
     border-radius: 0px;
     margin-bottom: 30px;
     padding-top: 104px;
-    @media screen and (min-width: 320px) and (max-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
       font-size: 22px;
       padding-top: 10px;
       margin-left: 0px;
@@ -42,7 +42,7 @@
     padding-bottom: 10px;
     margin-bottom: 114px;
     border: none;
-    @media screen and (min-width: 320px) and (max-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
       padding-left: 18px;
       padding-right: 18px;
       padding-top: 10px;
@@ -53,7 +53,7 @@
     }
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-logo {
     background-image: url(../images/mobile/bg-image1x.jpg);
     display: block;

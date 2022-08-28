@@ -37,7 +37,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     width: auto;
   }
@@ -51,12 +51,12 @@ body {
   background: var(--third);
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .section {
     padding: 0px;
   }
   .section-team {
-    max-width: 480px;
+    max-width: 767px;
   }
 }
 .page-header {
@@ -139,7 +139,7 @@ body {
   height: 16px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header__adrlist {
     display: none;
   }
@@ -147,7 +147,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
     height: 60px;
     padding-bottom: 16px;
@@ -169,7 +169,7 @@ body {
 .logo--light {
   color: var(--white);
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .logo {
     padding-left: 15px;
   }
@@ -178,7 +178,7 @@ body {
 .borderbottom {
   border-bottom: 1px solid var(--first);
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .borderbottom {
     height: 60px;
   }
@@ -218,7 +218,7 @@ body {
   margin-bottom: 30px;
   padding-top: 104px;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-logo__text {
     font-size: 22px;
     padding-top: 10px;
@@ -245,7 +245,7 @@ body {
   margin-bottom: 114px;
   border: none;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-logo__button {
     padding-left: 18px;
     padding-right: 18px;
@@ -257,7 +257,7 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-logo {
     background-image: url(../images/mobile/bg-image1x.jpg);
     display: block;
@@ -296,7 +296,7 @@ body {
   text-transform: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-profile {
     max-width: 480px;
     flex-direction: column;
@@ -352,7 +352,7 @@ body {
   padding: 27px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .work-list {
     display: none;
   }
@@ -398,11 +398,12 @@ body {
   padding-bottom: 30px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .team-list {
     flex-direction: column;
     text-align: center;
     max-width: 480px;
+    padding-left: 15px;
   }
   .team {
     max-width: 480px;
