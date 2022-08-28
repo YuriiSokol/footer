@@ -39,6 +39,12 @@ body {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: auto;
+    height: 60px;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -128,6 +134,14 @@ body {
   height: 16px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .page-header__adrlist {
+    display: none;
+  }
+  .page-header__list {
+    display: none;
+  }
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -201,6 +215,16 @@ body {
   border: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-logo {
+    background-image: url(../images/mobile/bg-image1x.jpg);
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 .our-profile {
   list-style: none;
   display: flex;

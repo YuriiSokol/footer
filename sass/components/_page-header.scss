@@ -75,3 +75,15 @@
   width: 20px;
   height: 16px;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .page-header__adrlist {
+    display: none;
+  }
+  .page-header__list {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .page-header {
+  }
+}
