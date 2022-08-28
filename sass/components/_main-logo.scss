@@ -17,6 +17,13 @@
     border-radius: 0px;
     margin-bottom: 30px;
     padding-top: 104px;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      font-size: 22px;
+      padding-top: 10px;
+      margin-left: 0px;
+      text-align: center;
+      line-height: 1.61;
+    }
   }
   &__button {
     font-weight: 700;
@@ -35,15 +42,26 @@
     padding-bottom: 10px;
     margin-bottom: 114px;
     border: none;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 200px;
+      height: 50px;
+      font-size: 14px;
+    }
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .main-logo {
     background-image: url(../images/mobile/bg-image1x.jpg);
     display: block;
+    height: 400px;
     max-width: 480px;
     text-align: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
   }
 }

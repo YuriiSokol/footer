@@ -35,14 +35,11 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container {
     width: auto;
-    height: 60px;
   }
 }
 .section {
@@ -54,6 +51,14 @@ body {
   background: var(--third);
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .section {
+    padding: 0px;
+  }
+  .section-team {
+    max-width: 480px;
+  }
+}
 .page-header {
   display: flex;
   align-items: center;
@@ -142,6 +147,13 @@ body {
     display: none;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .page-header {
+    height: 60px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -157,9 +169,19 @@ body {
 .logo--light {
   color: var(--white);
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    padding-left: 15px;
+  }
+}
 
 .borderbottom {
   border-bottom: 1px solid var(--first);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .borderbottom {
+    height: 60px;
+  }
 }
 
 .bottomline {
@@ -196,6 +218,15 @@ body {
   margin-bottom: 30px;
   padding-top: 104px;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-logo__text {
+    font-size: 22px;
+    padding-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 1.61;
+  }
+}
 .main-logo__button {
   font-weight: 700;
   font-size: 16px;
@@ -214,15 +245,28 @@ body {
   margin-bottom: 114px;
   border: none;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-logo__button {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .main-logo {
     background-image: url(../images/mobile/bg-image1x.jpg);
     display: block;
+    height: 400px;
     max-width: 480px;
     text-align: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
   }
 }
 .our-profile {
@@ -252,6 +296,27 @@ body {
   text-transform: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .our-profile {
+    max-width: 480px;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .our-profile__icon {
+    width: 450px;
+    height: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #f5f4fa;
+    border-radius: 4px;
+  }
+  .our-profile__title {
+    text-align: center;
+  }
+  .our-profile__describtion {
+    padding-left: 15px;
+  }
+}
 .work {
   font-size: 36px;
   line-height: 1, 17;
@@ -287,6 +352,14 @@ body {
   padding: 27px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .work-list {
+    display: none;
+  }
+  .work {
+    display: none;
+  }
+}
 .team {
   font-size: 36px;
   line-height: 1.17;
@@ -325,6 +398,23 @@ body {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .team-list {
+    flex-direction: column;
+    text-align: center;
+    max-width: 480px;
+  }
+  .team {
+    max-width: 480px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .team-list__photo {
+    width: 450px;
+    height: 622px;
+    margin-top: 0px;
+  }
+}
 .social-icon {
   list-style: none;
   display: flex;

@@ -32,3 +32,11 @@
     padding: 27px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .work-list {
+    display: none;
+  }
+  .work {
+    display: none;
+  }
+}
