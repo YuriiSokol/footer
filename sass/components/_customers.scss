@@ -30,3 +30,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .customer {
+    max-width: 480px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
+  .customer__icon {
+    width: 210px;
+  }
+}
