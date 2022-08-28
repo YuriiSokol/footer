@@ -673,6 +673,22 @@ body {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .background {
+    max-width: 480px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+  .portfolio-btn {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .portfolio-btn__btn {
+    margin-bottom: 10px;
+  }
+}
 .portfolio {
   list-style: none;
   display: flex;
@@ -746,6 +762,15 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .portfolio {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .portfolio__card {
+    margin-top: 0px;
+  }
+}
 .backdrop {
   position: fixed;
   width: 100%;

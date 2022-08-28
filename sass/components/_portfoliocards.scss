@@ -73,3 +73,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .portfolio {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .portfolio__card {
+    margin-top: 0px;
+  }
+}
