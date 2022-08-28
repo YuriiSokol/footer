@@ -105,3 +105,21 @@
     margin-bottom: 104px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page-footer {
+    text-align: center;
+    max-width: 480px;
+    margin-top: 30px;
+  }
+  .page-footer__social {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .address__list {
+    margin-top: 13px;
+    padding-top: 10px;
+  }
+  .invite {
+    padding-left: 0px;
+  }
+}
