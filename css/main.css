@@ -56,7 +56,8 @@ body {
     padding: 0px;
   }
   .section-team {
-    max-width: 767px;
+    max-width: 480px;
+    padding: 0px;
   }
 }
 .page-header {
@@ -409,11 +410,13 @@ body {
     max-width: 480px;
     padding-top: 60px;
     padding-bottom: 30px;
+    margin: 0px;
   }
   .team-list__photo {
     width: 450px;
-    height: 622px;
+    height: 460px;
     margin-top: 0px;
+    margin-bottom: 30px;
   }
 }
 .social-icon {
@@ -447,6 +450,11 @@ body {
   padding-left: 70px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .social-icon {
+    justify-content: center;
+  }
+}
 .customer {
   list-style: none;
   display: flex;
