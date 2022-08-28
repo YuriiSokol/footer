@@ -219,9 +219,9 @@ body {
   .main-logo {
     background-image: url(../images/mobile/bg-image1x.jpg);
     display: block;
-    max-width: 100%;
+    max-width: 480px;
     text-align: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 }
