@@ -453,6 +453,8 @@ body {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .social-icon {
     justify-content: center;
+    gap: 22px;
+    margin-left: 0px;
   }
 }
 .customer {
