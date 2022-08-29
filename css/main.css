@@ -45,7 +45,7 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 768px;
     margin: 0px;
   }
 }
@@ -866,11 +866,23 @@ body {
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .background {
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+  .portfolio-btn {
+    justify-content: left;
+    margin-left: 120px;
+  }
+}
 .portfolio {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 27px;
 }
 .portfolio__overlay:hover {
   transform: translateX(0);
@@ -946,6 +958,15 @@ body {
   }
   .portfolio__card {
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 768) and (max-width: 1200px) {
+  .portfolio {
+    width: 768px;
+  }
+  .portfolio__card {
+    width: 354px;
+    height: 404px;
   }
 }
 .backdrop {

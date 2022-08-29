@@ -2,7 +2,7 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 27px;
   &__overlay:hover {
     transform: translateX(0);
   }
@@ -80,5 +80,14 @@
   }
   .portfolio__card {
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 768) and (max-width: 1200px) {
+  .portfolio {
+    width: 768px;
+  }
+  .portfolio__card {
+    width: 354px;
+    height: 404px;
   }
 }
