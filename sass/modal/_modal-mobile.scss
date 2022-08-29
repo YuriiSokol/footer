@@ -123,3 +123,11 @@
 .menu__socials--item:focus {
   color: var(--blue);
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu__open-btn {
+    margin-left: 260px;
+  }
+  .menu__open-btn:hover {
+    fill: var(--blue);
+  }
+}

@@ -148,12 +148,22 @@ body {
   .page-header__list {
     display: none;
   }
+  .js-open-menu .menu__open-btn {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
     height: 60px;
     padding-bottom: 16px;
     padding-top: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .js-open-menu {
+    display: none;
+    visibility: hidden;
   }
 }
 .logo {
@@ -1114,4 +1124,13 @@ input {
 .menu__socials--item:hover,
 .menu__socials--item:focus {
   color: var(--blue);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu__open-btn {
+    margin-left: 260px;
+  }
+  .menu__open-btn:hover {
+    fill: var(--blue);
+  }
 }/*# sourceMappingURL=main.css.map */
