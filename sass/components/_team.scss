@@ -66,16 +66,17 @@
     font-size: 28px;
     text-align: center;
   }
-}
-.team-list {
-  width: 768px;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.team-list__photo {
-  width: 354px;
-  height: 536px;
-  padding-left: 15px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+
+  .team-list {
+    width: 768px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team-list__photo {
+    width: 354px;
+    height: 536px;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
 }
