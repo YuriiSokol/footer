@@ -134,9 +134,22 @@
     position: relative;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .page-footer__social {
     width: 768px;
     flex-wrap: wrap;
+  }
+  .subscribe {
+    padding-left: 193px;
+  }
+  .subscribe__mail {
+    margin-left: 126px;
+    position: absolute;
+  }
+  .subscribe__button {
+    position: relative;
+    margin-left: 205px;
+    margin-top: 80px;
+    margin-bottom: 0px;
   }
 }
