@@ -88,17 +88,26 @@
       height: 40px;
     }
   }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
     height: 60px;
     padding-bottom: 16px;
     padding-top: 16px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .js-open-menu {
     display: none;
     visibility: hidden;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .page-header__list {
+    padding-left: 88px;
+  }
+  .page-header__adrlist {
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
   }
 }

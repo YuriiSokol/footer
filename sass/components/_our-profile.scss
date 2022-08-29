@@ -48,3 +48,21 @@
     padding-left: 15px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .our-profile {
+    flex-wrap: wrap;
+    width: 768px;
+    padding-left: 15px;
+  }
+  .our-profile__icon {
+    width: 354px;
+    flex-basis: calc(100% / 2);
+    background: #f5f4fa;
+  }
+  .our-profile__title {
+    width: 354px;
+  }
+  .our-profile__describtion {
+    width: 354px;
+  }
+}

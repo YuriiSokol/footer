@@ -77,49 +77,67 @@
         url(../images/mobile/bg-image2x.jpg);
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .main-logo {
-      background-image: ulinear-gradient(
-          to right,
-          #2f303a66 100%,
-          #2f303a66 100%
-        )
-        url(../images/tablet/bg-image1x.jpg);
-    }
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      .main-logo {
-        background-image: linear-gradient(
-            to right,
-            #2f303a66 100%,
-            #2f303a66 100%
-          ),
-          url(../images/tablet/bg-image2x.jpg);
-      }
-    }
-  }
+}
 
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-logo {
+    height: 400px;
+    max-width: 768px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    background-image: ulinear-gradient(to right, #2f303a66 100%, #2f303a66 100%)
+      url(../images/tablet/bg-image1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .main-logo {
       background-image: linear-gradient(
           to right,
           #2f303a66 100%,
           #2f303a66 100%
         ),
-        url(../images/desktop/bg-image1x.jpg);
+        url(../images/tablet/bg-image2x.jpg);
     }
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      .main-logo {
-        background-image: linear-gradient(
-            to right,
-            #2f303a66 100%,
-            #2f303a66 100%
-          ),
-          url(../images/desktop/bg-image2x.jpg);
-      }
+  }
+  .main-logo__text {
+    width: 360px;
+
+    height: 84px;
+    font-size: 22px;
+    padding-top: 10px;
+    margin-left: 100px;
+
+    line-height: 1.61;
+  }
+  .main-logo__button {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    margin-right: 640px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-logo {
+    background-image: linear-gradient(to right, #2f303a66 100%, #2f303a66 100%),
+      url(../images/desktop/d0img1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .main-logo {
+      background-image: linear-gradient(
+          to right,
+          #2f303a66 100%,
+          #2f303a66 100%
+        ),
+        url(../images/desktop/d0img2x.jpg);
     }
   }
 }
