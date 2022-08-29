@@ -271,7 +271,7 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .main-logo {
-    background-image: url(../images/mobile/bg-image1x.jpg);
+    background-image: ulinear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%) url(../images/mobile/bg-image1x.jpg);
     display: block;
     height: 400px;
     max-width: 480px;
@@ -279,6 +279,31 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 2dppx) {
+  .main-logo {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(../images/mobile/bg-image2x.jpg);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) {
+  .main-logo {
+    background-image: ulinear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%) url(../images/tablet/bg-image1x.jpg);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+  .main-logo {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(../images/tablet/bg-image2x.jpg);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1200px) {
+  .main-logo {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(../images/desktop/bg-image1x.jpg);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .main-logo {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(../images/desktop/bg-image2x.jpg);
   }
 }
 .our-profile {
