@@ -43,3 +43,17 @@
     width: 210px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .customer {
+    padding-left: 15px;
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+  .customer__icon {
+    width: 210px;
+  }
+  .customer__icon--last {
+    width: 210px;
+    margin-bottom: 60px;
+  }
+}

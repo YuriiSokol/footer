@@ -57,3 +57,25 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .team {
+    max-width: 768px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+}
+.team-list {
+  width: 768px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.team-list__photo {
+  width: 354px;
+  height: 536px;
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
