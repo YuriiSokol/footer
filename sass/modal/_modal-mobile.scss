@@ -19,6 +19,7 @@
 }
 .is-open {
   visibility: visible;
+  position: relative;
 }
 .js-close-menu {
   background: var(--white);

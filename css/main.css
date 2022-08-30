@@ -350,7 +350,7 @@ body {
     width: 200px;
     height: 50px;
     font-size: 14px;
-    margin-right: 640px;
+    margin-right: 210px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -961,6 +961,7 @@ body {
 @media screen and (min-width: 768) and (max-width: 1200px) {
   .portfolio {
     width: 768px;
+    padding-left: 15px;
   }
   .portfolio__card {
     width: 354px;
@@ -1193,6 +1194,20 @@ input {
     margin-left: 85px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .modal {
+    width: 450px;
+  }
+  .backdrop {
+    width: 768px;
+  }
+  .modal__checkbox {
+    margin-bottom: 30px;
+  }
+  .modal__button-form {
+    margin-left: 85px;
+  }
+}
 .js-menu-container {
   width: 480px;
   height: 796px;
@@ -1216,6 +1231,7 @@ input {
 
 .is-open {
   visibility: visible;
+  position: relative;
 }
 
 .js-close-menu {
