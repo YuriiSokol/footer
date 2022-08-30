@@ -209,3 +209,17 @@ input {
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal {
+    width: 450px;
+  }
+  .backdrop {
+    width: 480px;
+  }
+  .modal__checkbox {
+    margin-bottom: 30px;
+  }
+  .modal__button-form {
+    margin-left: 85px;
+  }
+}
