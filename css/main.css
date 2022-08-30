@@ -1217,6 +1217,14 @@ input {
     margin-left: 85px;
   }
 }
+@media screen and (min-width: 1201px) {
+  .modal__button-form {
+    margin-left: 0, auto;
+  }
+  .modal__checkbox {
+    margin-bottom: 30px;
+  }
+}
 .js-menu-container {
   width: 480px;
   height: 796px;
