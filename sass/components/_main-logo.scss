@@ -125,18 +125,14 @@
 }
 @media screen and (min-width: 1200px) {
   .main-logo {
-    background-image: linear-gradient(to right, #2f303a66 100%, #2f303a66 100%),
+    background-image: linear-gradient(var(--title), var(--title)),
       url(../images/desktop/d0img1x.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .main-logo {
-      background-image: linear-gradient(
-          to right,
-          #2f303a66 100%,
-          #2f303a66 100%
-        ),
+      background-image: linear-gradient(var(--title), var(--title)),
         url(../images/desktop/d0img2x.jpg);
     }
   }
