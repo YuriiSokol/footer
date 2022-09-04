@@ -46,17 +46,33 @@
   height: auto;
 }
 
-.container-footer {
-  display: flex;
-  gap: 257px;
-}
-
-.main__logo-txt {
+.main__logo--text {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
   padding-left: 114px;
 }
 
 .main__logo--above-text {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffa5ba;
   padding-bottom: 15px;
+}
+
+/* dopasowac do grupy main logo text, conteiner  wprowadzic variables*/
+.container-footer {
+  display: flex;
+  gap: 257px;
 }
 
 .footer__contacts {
@@ -68,6 +84,43 @@
   display: flex;
   gap: 24px;
   justify-content: flex-end;
+}
+.footer__contacts--text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 186%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.footer__contacts--tel {
+  color: rgb(212, 20, 67);
+}
+.footer__contacts--tel:hover {
+  text-decoration: dashed;
+}
+.footer__contacts--item:hover, .footer__contacts--item:focus {
+  fill: rgb(212, 20, 67);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer--license {
+  text-align: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 186%;
+  /* identical to box height, or 26px */
+  letter-spacing: 0.02em;
+  color: #907e82;
+  margin-top: 97px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(225, 225, 225);
 }
 
 /*@media screen and (min-width: 320px) and (max-width: 767px) {
@@ -85,61 +138,4 @@
 @media screen and (min-width: 1200px) {
   .main__logo-txt {
   }
-}*/
-.main__logo--text {
-  font-family: "Titan One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 58px;
-  line-height: 66px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #d41443;
-}
-
-.main__logo--above-text {
-  font-family: "Titan One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #ffa5ba;
-}
-
-.footer--license {
-  text-align: center;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 186%;
-  /* identical to box height, or 26px */
-  letter-spacing: 0.02em;
-  color: #907e82;
-}
-
-.footer__contacts--text {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 186%;
-  /* identical to box height, or 30px */
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.footer__contacts--tel {
-  color: rgb(212, 20, 67);
-}
-.footer__contacts--tel:hover {
-  text-decoration: dashed;
-}
-
-.footer__contacts--item:hover,
-.footer__contacts--item:focus {
-  fill: rgb(212, 20, 67);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}/*# sourceMappingURL=main.css.map */
+}*//*# sourceMappingURL=main.css.map */
