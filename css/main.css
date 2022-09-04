@@ -125,6 +125,6 @@
   text-decoration: dashed;
 }
 
-.soc-list:hover svg {
+.social__link:hover svg {
   fill: rgb(212, 20, 67);
 }/*# sourceMappingURL=main.css.map */
