@@ -2,6 +2,9 @@
   width: 1280px;
   height: auto;
 }
+.main__logo-txt {
+  padding-left: 114px;
+}
 .main__logo--text {
   font-family: "Titan One";
   font-style: normal;
@@ -12,7 +15,6 @@
   text-transform: uppercase;
 
   color: #d41443;
-  padding-left: 114px;
 }
 .main__logo--above-text {
   font-family: "Titan One";
@@ -66,7 +68,12 @@
   &--item:focus {
     fill: rgba(212, 20, 67, 1);
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(
+      0.4,
+      0,
+      0.2,
+      1
+    ); /* Nie dziala!!!!! (background na hover - ok,  fill nie dziala */
   }
 }
 

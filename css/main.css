@@ -46,6 +46,10 @@
   height: auto;
 }
 
+.main__logo-txt {
+  padding-left: 114px;
+}
+
 .main__logo--text {
   font-family: "Titan One";
   font-style: normal;
@@ -55,7 +59,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #d41443;
-  padding-left: 114px;
 }
 
 .main__logo--above-text {
@@ -104,7 +107,7 @@
 .footer__contacts--item:hover, .footer__contacts--item:focus {
   fill: rgb(212, 20, 67);
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* Nie dziala!!!!! (background na hover - ok,  fill nie dziala */
 }
 
 .footer--license {
