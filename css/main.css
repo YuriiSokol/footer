@@ -135,6 +135,11 @@
     flex-direction: column;
     gap: 43px;
   }
+  .main__logo--text {
+    font-size: 34px;
+    padding-right: 100px;
+    line-height: 1.1;
+  }
   .main__logo-txt {
     padding-left: 22px;
   }
@@ -143,27 +148,50 @@
     font-size: 18px;
     line-height: 1.1;
   }
+  .footer__contacts {
+    padding-right: 20px;
+  }
   .footer__contacts--text {
     display: flex;
     justify-content: right;
   }
-  .footer__contacts {
-    padding-right: 20px;
-  }
-  .main__logo--text {
-    font-size: 34px;
-    padding-right: 100px;
-    line-height: 1.1;
-  }
   .footer__contacts--text {
     font-size: 12px;
     line-height: 186%;
-    /* identical to box height, or 30px */
     gap: 5px;
     letter-spacing: 0.02em;
   }
   .footer--license {
     padding-left: 79px;
     padding-right: 91px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    width: 768px;
+  }
+  .container-footer {
+    gap: 77px;
+  }
+  .main__logo--above-text {
+    width: 340px;
+    font-size: 26px;
+  }
+  .main__logo-txt {
+    padding-left: 36px;
+  }
+  .main__logo--text {
+    width: 340px;
+    font-size: 48px;
+  }
+  .footer__contacts {
+    padding-right: 36px;
+  }
+  .footer__contacts--text {
+    font-size: 14px;
+  }
+  .footer--license {
+    padding-left: 29px;
+    padding-right: 18px;
   }
 }/*# sourceMappingURL=main.css.map */
