@@ -64,20 +64,19 @@
       text-decoration: dashed;
     }
   }
-
-  &--item:hover,
-  &--item:focus {
-    fill: rgba(212, 20, 67, 1);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(
-      0.4,
-      0,
-      0.2,
-      1
-    ); /* Nie dziala!!!!! (background na hover - ok,  fill nie dziala */
-  }
 }
 
+.footer__contacts--item:hover,
+.footer__contacts--item:focus {
+  fill: rgba(212, 20, 67, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(
+    0.4,
+    0,
+    0.2,
+    1
+  ); /* Nie dziala!!!!! (background na hover - ok,  fill nie dziala */
+}
 .footer--license {
   text-align: center;
   font-family: "DM Sans";

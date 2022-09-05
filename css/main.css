@@ -100,7 +100,9 @@
 .footer__contacts--tel:hover {
   text-decoration: dashed;
 }
-.footer__contacts--item:hover, .footer__contacts--item:focus {
+
+.footer__contacts--item:hover,
+.footer__contacts--item:focus {
   fill: rgb(212, 20, 67);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* Nie dziala!!!!! (background na hover - ok,  fill nie dziala */
