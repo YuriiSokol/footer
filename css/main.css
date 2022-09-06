@@ -199,4 +199,10 @@
   .container {
     max-width: 100%;
   }
+}
+.icon {
+  fill: #ffa5ba;
+}
+.icon:hover {
+  fill: #d41443;
 }/*# sourceMappingURL=main.css.map */

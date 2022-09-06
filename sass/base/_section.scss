@@ -176,3 +176,9 @@
     max-width: 100%;
   }
 }
+.icon {
+  fill: #ffa5ba;
+  &:hover {
+    fill: #d41443;
+  }
+}
